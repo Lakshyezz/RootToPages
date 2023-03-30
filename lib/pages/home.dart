@@ -31,6 +31,7 @@ class _HomePageState extends State<HomePage> {
       ),
       backgroundColor: Color(0xFF4D455D),
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         toolbarHeight: 80,
         title: Center(
             child: Text(

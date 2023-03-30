@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:nudge_task/pages/newPage.dart';
 
 class ContactPage extends StatelessWidget {
-  static final namedRoute = "HomePageRoute";
+  static final namedRoute = "ContactPageRoute";
   const ContactPage({super.key});
 
   @override
@@ -11,6 +11,7 @@ class ContactPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFF4D455D),
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         toolbarHeight: 80,
         title: Center(
             child: Text(
